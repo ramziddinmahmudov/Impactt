@@ -38,6 +38,10 @@ function Layout() {
       <main>
         <Outlet />
       </main>
+      <footer>
+        <h3>Sayt hali test rejimida</h3>
+        <h4>Copy& Ramziddin Mahmudov</h4>
+      </footer>
     </div>
   );
 }
