@@ -1,0 +1,37 @@
+.nav {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+
+    .nav_ul {
+        list-style: none;
+        display: flex;
+        gap: 50px;
+    }
+
+    li {
+        color: white;
+    }
+
+    li:hover {
+        transform: scale(1.05);
+        cursor: pointer;
+        color: orange;
+        transition: 0.5s;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    border-radius: 0px 0px 8px 8px;
+    background: #1B1B1B;
+    width: 1110px;
+    height: 70px;
+    flex-shrink: 0;
+    margin: auto;
+    padding-top: 20px;
+}

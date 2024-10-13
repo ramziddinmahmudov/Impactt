@@ -1,0 +1,65 @@
+.recent-work-section {
+  text-align: center;
+  padding: 50px;
+  color: white;
+}
+
+.recent-work-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.work-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.work-card {
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 45%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.work-image {
+  width: 100%;
+  height: auto;
+  border-radius:0px;
+  height: 300px;
+}
+
+.work-title {
+  font-size: 1.5rem;
+  margin: 20px 0;
+  color: #111;
+}
+
+.work-description {
+  font-size: 1rem;
+  margin: 0 20px 20px;
+  color: #666;
+}
+
+.work-button {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.work-button:hover {
+  background-color: #218838;
+}
