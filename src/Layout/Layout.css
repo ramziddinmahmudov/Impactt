@@ -35,3 +35,14 @@ header {
     margin: auto;
     padding-top: 20px;
 }
+
+.footer{
+    text-align: center;
+    padding: 20px 0px;
+    h5{
+        color: white;
+    }
+    p{
+        width: 100%;
+    }
+}
