@@ -44,7 +44,7 @@ img{
     height: 60vh;
     gap: 70px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 500px);
+    grid-template-columns: repeat(auto-fill, 450px);
     align-items: center;
     justify-content: center;
     margin: auto;
