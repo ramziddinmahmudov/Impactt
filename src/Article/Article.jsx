@@ -21,8 +21,7 @@ const RecentWork = () => {
     <section className="recent-work-section">
       <h2>Recent Work</h2>
       <p className="description">
-        Solving user & business problems since last 15+ years.<br />
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Solving user & business problems since last 1.5+ years.<br />
       </p>
       <div className="work-container">
         {works.map((work, index) => (
